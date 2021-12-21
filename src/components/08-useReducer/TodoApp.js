@@ -10,7 +10,7 @@ import { useEffect } from "react";
 const init = () =>{
 
     //Traemos información de localStorage, y lo regresamos como valor inicial que usa el reducer,
-    //la función "init" el tercer parametro del reducer es una función que regresa el estado
+    //la función "init", el tercer parametro del reducer es una función que regresa el estado
     // inicial del reducer. 
 
     return JSON.parse( localStorage.getItem('todos')) || []
